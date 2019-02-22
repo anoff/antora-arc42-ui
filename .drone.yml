@@ -7,8 +7,6 @@ steps:
   commands:
   - npm install
   - npx gulp bundle
-  paths:
-    - build/ui-bundle.zip
 - name: publish
   image: plugins/github-release
   settings:
