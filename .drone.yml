@@ -18,5 +18,4 @@ steps:
       - md5
       - sha1
   when:
-    branch:
-    - master
+    event: tag
