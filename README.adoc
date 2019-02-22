@@ -3,6 +3,8 @@
 :url-anoff: https://anoff.io
 :url-default-ui: https://gitlab.com/antora/antora-ui-default
 
+image::https://cloud.drone.io/api/badges/anoff/antora-arc42-ui/status.svg[[Build Status, link=https://cloud.drone.io/anoff/antora-arc42-ui]
+
 This is a modified version of the original {url-default-ui}[Antora Default UI bundle]
 
 == Use the UI bundle
