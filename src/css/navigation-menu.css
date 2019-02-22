@@ -51,6 +51,10 @@ html.is-clipped--nav {
   color: inherit;
 }
 
+.nav-menu a:hover {
+  color: #f05;
+}
+
 .nav-list {
   margin: 0 0 0 0.8em;
   padding: 0;

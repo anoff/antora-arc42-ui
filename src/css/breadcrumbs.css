@@ -37,3 +37,12 @@ a + .crumbs {
 .crumbs li:last-of-type::after {
   content: none;
 }
+
+.crumb a,
+.crumb a:visited {
+  color: inherit;
+}
+
+.crumb a:hover {
+  color: #f05;
+}
