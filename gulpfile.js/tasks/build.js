@@ -33,13 +33,13 @@ module.exports = (src, dest, preview) => () => {
           const destpath = ospath.join(dest, 'font', basename)
           if (!fs.pathExistsSync(destpath)) fs.copySync(abspath, destpath)
           return path.join('..', 'font', basename)
-        },
-      },
+        }
+      }
     ]),
     postcssVar({ preserve: preview ? 'preserve-computed' : false }),
     postcssCalc(),
     autoprefixer({ browsers: ['last 2 versions'] }),
-    preview ? () => {} : cssnano({ preset: 'default' }),
+    preview ? () => {} : cssnano({ preset: 'default' })
   ]
 
   return merge(
@@ -67,7 +67,7 @@ module.exports = (src, dest, preview) => () => {
           imagemin.gifsicle(),
           imagemin.jpegtran(),
           imagemin.optipng(),
-          imagemin.svgo({ plugins: [{ removeViewBox: false }] }),
+          imagemin.svgo({ plugins: [{ removeViewBox: false }] })
         ])
       ),
     vfs.src('helpers/*.js', opts),

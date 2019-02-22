@@ -15,7 +15,7 @@ const ASCIIDOC_ATTRIBUTES = {
   experimental: '',
   icons: 'font',
   sectanchors: '',
-  'source-highlighter': 'highlight.js',
+  'source-highlighter': 'highlight.js'
 }
 
 module.exports = (src, previewSrc, previewDest, sink = () => map(), layouts = {}) => () =>
@@ -28,7 +28,7 @@ module.exports = (src, previewSrc, previewDest, sink = () => map(), layouts = {}
         registerHelpers(src),
         copyImages(previewSrc, previewDest)
       )
-    ),
+    )
   ])
     .then(([baseUiModel]) => Object.assign(baseUiModel, { env: process.env }))
     .then((baseUiModel) =>

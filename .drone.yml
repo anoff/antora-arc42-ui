@@ -14,7 +14,7 @@ steps:
       from_secret: github_token
     files:
       - build/ui-bundle.zip
-   checksum:
+    checksum:
       - md5
       - sha1
   when:
