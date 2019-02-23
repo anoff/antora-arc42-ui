@@ -13,8 +13,8 @@ This is a modified version of the original {url-default-ui}[Antora Default UI bu
 ----
 ui:
   bundle:
-    url: tbd
-    snapshot: true
+    url: https://github.com/anoff/antora-arc42-ui/releases/download/0.2/ui-bundle.zip
+    # see https://github.com/anoff/antora-arc42-ui/releases/latest for latest version
 ----
 
 == Usage
