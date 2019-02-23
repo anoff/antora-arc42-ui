@@ -13,6 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
   // show all texts
   if (needsHelp) {
     getAllHelptexts().forEach(e => e.classList.add('visible'))
+    document.getElementById('helptext-toggle').classList.add('active')
   }
-  console.log('INIT HELPS')
+
+  // register toggle button
+  const elm = document.getElementById('helptext-toggle')
+  elm.addEventListener('click', function (e) {
+    elm.classList.toggle('active')
+    getAllHelptexts().forEach(e => e.classList.toggle('visible'))
+  })
 })

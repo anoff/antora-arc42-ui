@@ -15,7 +15,7 @@ const { remove, lintCss, lintJs, build, pack, previewPages, serve } = require('.
 const glob = {
   all: [srcDir, previewSrcDir],
   css: `${srcDir}/css/**/*.css`,
-  js: ['gulpfile.js/**/*.js', `${srcDir}/{helpers,js}/**/*.js`]
+  js: ['gulpfile.js/**/*.js', `${srcDir}/{helpers,js}/**/*.js`, `!${srcDir}/{helpers,js}/vendor/*.js`]
 }
 
 const cleanTask = task({

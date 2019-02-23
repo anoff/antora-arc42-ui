@@ -10,6 +10,13 @@ Mel id omnes verear.
 Vis no velit audiam, sonet <<dependencies,praesent>> eum ne.
 *Prompta eripuit* nec ad.
 
+[.helptext]
+****
+this is a help text
+****
+
+TIP: test
+
 == Cu solet
 
 Nominavi luptatum eos, an vim hinc philosophia intellegebat.

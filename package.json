@@ -39,5 +39,10 @@
     "typeface-roboto-mono": "0.0.54",
     "vinyl-buffer": "~1.0",
     "vinyl-fs": "~3.0"
+  },
+  "standard": {
+    "ignore": [
+      "src/js/vendor/*.js"
+    ]
   }
 }

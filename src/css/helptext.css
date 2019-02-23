@@ -1,8 +1,18 @@
 div .sidebarblock.helptext {
   display: none;
   background-color: rgba(204, 0, 51, 0.3);
+  border-radius: 3px;
 }
 
 div .sidebarblock.helptext.visible {
   display: block;
+}
+
+div #helptext-toggle {
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+div #helptext-toggle.active {
+  color: #c03;
 }
