@@ -1,5 +1,5 @@
 .navigation-explore {
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
